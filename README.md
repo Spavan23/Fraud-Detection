@@ -45,43 +45,33 @@ The project pipeline consists of the following stages:
 
 1. Data Understanding
 
-Load the dataset and examine its features to gain insights.
-
-Identify relevant features for model building.
+  Load the dataset and examine its features to gain insights.
+  Identify relevant features for model building.
 
 2. Exploratory Data Analysis (EDA)
 
-Perform univariate and bivariate analysis to understand the distribution and relationships between features.
-
-Address skewness in the data to improve model performance.
-
-Verify if feature transformations are required.
+  Perform univariate and bivariate analysis to understand the distribution and relationships between features.
+  Address skewness in the data to improve model performance.
+  Verify if feature transformations are required.
 
 3. Train/Test Split
 
-Split the dataset into training and testing sets to evaluate model performance on unseen data.
-
-Use k-fold cross-validation to ensure robust validation, particularly for the minority class.
-
-Select an appropriate value of k to ensure the minority class is adequately represented.
+  Split the dataset into training and testing sets to evaluate model performance on unseen data.
+  Use k-fold cross-validation to ensure robust validation, particularly for the minority class.
+  Select an appropriate value of k to ensure the minority class is adequately represented.
 
 4. Model Building and Hyperparameter Tuning
 
-Experiment with various machine learning models, such as logistic regression, random forest, and gradient boosting.
-
-Apply hyperparameter tuning to optimize model performance.
-
-Use sampling techniques, such as oversampling (SMOTE) or undersampling, to address class imbalance.
+  Experiment with various machine learning models, such as logistic regression, random forest, and gradient boosting.
+  Apply hyperparameter tuning to optimize model performance.
+  Use sampling techniques, such as oversampling (SMOTE) or undersampling, to address class imbalance.
 
 5. Model Evaluation
 
-Evaluate models using metrics that are sensitive to the imbalanced nature of the dataset.
-
-Focus on metrics such as precision, recall, F1-score, and the area under the Receiver Operating Characteristic (ROC-AUC) curve to assess the ability to correctly identify fraudulent transactions.
-
-Analyze false positives and false negatives to understand the trade-offs and improve the model’s decision-making process.
-
-Select the model that achieves the best balance between detecting fraudulent transactions (minimizing false negatives) and maintaining a low rate of false positives.
+  Evaluate models using metrics that are sensitive to the imbalanced nature of the dataset.
+  Focus on metrics such as precision, recall, F1-score, and the area under the Receiver Operating Characteristic (ROC-AUC) curve to assess the ability to correctly identify fraudulent transactions.
+  Analyze false positives and false negatives to understand the trade-offs and improve the model’s decision-making process.
+  Select the model that achieves the best balance between detecting fraudulent transactions (minimizing false negatives) and maintaining a low rate of false positives.
 
 # Enhanced Model Evaluation
 
