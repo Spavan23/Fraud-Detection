@@ -3,6 +3,8 @@ Problem Statement
 
 The problem statement chosen for this project is to predict fraudulent credit card transactions using machine learning models. This analysis will involve customer-level data collected during a research collaboration between Worldline and the Machine Learning Group. The dataset comprises a total of 284,807 transactions, out of which 492 are labeled as fraudulent, highlighting a significant class imbalance that needs to be addressed prior to model building.
 
+The dataset is taken from the Kaggle Website website and it has a total of 2,84,807 transactions, out of which 492 are fraudulent. Since the dataset is highly imbalanced, so it needs to be handled before model building.
+
 # Business Problem Overview
 
 For banks, retaining highly profitable customers is a top priority. However, banking fraud poses a significant threat to achieving this goal. Banking fraud can lead to substantial financial losses, damage to trust, and a loss of credibility for both banks and their customers.
