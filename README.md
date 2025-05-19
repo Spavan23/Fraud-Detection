@@ -91,3 +91,5 @@ Given the high stakes of credit card fraud detection, evaluation metrics must al
 
 By incorporating these comprehensive metrics, the project aims to deliver a reliable and actionable solution for credit card fraud detection that aligns with business goals and customer satisfaction.
 
+📺 [Watch Demo on YouTube](https://youtu.be/k93LNX6Qoco)
+
